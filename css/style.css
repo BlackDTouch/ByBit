@@ -1050,15 +1050,7 @@ button:focus {
   position: relative;
   display: inline-block;
 }
-.construction-about .construction-about-image:before {
-  box-shadow: 10px 5px 5px red;
-  width: 127%;
-  height: 100%;
-  content: "";
-  top: 9px;
-  right: -105px;
-  position: absolute;
-}
+
 .construction-about .construction-about-icon i {
   font-size: 30px;
 }
@@ -2626,12 +2618,12 @@ content: "";
 
 .timeline-steps {
   display: block;
-  border-top: 0.25rem dotted #ea5724;
-  width: 161px;
-  position: absolute;
-  left: 102px;
-  top: 6px;
-
+    border-top: 0.25rem dotted #ea5724;
+    width: 161px;
+    position: relative;
+    left: 99px;
+    top: 9px;
+    margin-top: 15px;
 }
 
 .img-fluid1{
